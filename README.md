@@ -1,3 +1,5 @@
+In order to run this project you will need to go to "https://www.themoviedb.org/?language=en-GB" and generate your own api-keys
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
