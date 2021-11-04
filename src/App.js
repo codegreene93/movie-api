@@ -4,8 +4,8 @@ import Movie from './Components/Movie';
 
 
 
-const mainAPI = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=ce0c765e9a4c573c83baf64f39367b10&page=1';
-const searchAPI = 'https://api.themoviedb.org/3/search/movie?&api_key=ce0c765e9a4c573c83baf64f39367b10&query=';
+const mainAPI = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${process.env.REACT_APP_API_KEY}&page=1`;
+const searchAPI = `https://api.themoviedb.org/3/search/movie?&api_key=${process.env.REACT_APP_API_KEY}&query=`;
 
 
 
